@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+
+
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Name"/>
+                <EditText
+                    android:id="@+id/name_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/border"
+                android:layout_marginTop="-2dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Task"/>
+                <EditText
+                    android:id="@+id/task_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/border"
+                android:layout_marginTop="-2dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Date"/>
+                <EditText
+                    android:id="@+id/date_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"/>
+
+            </LinearLayout>
+
+
+            <kr.ac.kaist.arrc.nasatlx.CustomRankBar
+                android:paddingTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/mental_demand"
+
+                app:rb_title="@string/mental_demand_title"
+                app:rb_description="@string/mental_demand_description"
+
+                />
+            <kr.ac.kaist.arrc.nasatlx.CustomRankBar
+                android:paddingTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/physical_demand"
+
+                app:rb_title="@string/physical_demand_title"
+                app:rb_description="@string/physical_demand_description"
+
+                />
+
+            <kr.ac.kaist.arrc.nasatlx.CustomRankBar
+                android:id="@+id/temporal_demand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:paddingTop="30dp"
+
+                app:rb_description="@string/temporal_demand_description"
+                app:rb_title="@string/temporal_demand_title"
+
+                />
+            <kr.ac.kaist.arrc.nasatlx.CustomRankBar
+                android:paddingTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/performance"
+
+                app:rb_title="@string/performance_title"
+                app:rb_description="@string/performance_description"
+                app:rb_left_end="@string/perfect"
+                app:rb_right_end="@string/failure"
+
+                />
+            <kr.ac.kaist.arrc.nasatlx.CustomRankBar
+                android:paddingTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/effort"
+
+                app:rb_title="@string/effort_title"
+                app:rb_description="@string/effort_description"
+
+                />
+            <kr.ac.kaist.arrc.nasatlx.CustomRankBar
+                android:paddingTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/frustration"
+
+                app:rb_title="@string/frustration_title"
+                app:rb_description="@string/frustration_description"
+
+                />
+
+
+            <Button
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+
+                android:id="@+id/continue_btn"
+
+                android:text="Continue"/>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

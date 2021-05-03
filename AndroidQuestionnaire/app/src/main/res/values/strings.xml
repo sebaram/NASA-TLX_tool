@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">NasaTLX</string>
+
+    <string name="very_low">매우 낮음</string>
+    <string name="very_high">매우 높음</string>
+
+    <string name="perfect">완벽함</string>
+    <string name="failure">실패함</string>
+
+
+    <string name="mental_demand_title">정신적 요구(Mental Demand)</string>
+    <string name="mental_demand_description">
+        과제를 수행하기 위해 얼마나 많은 정신적 활동과 지각 활동이
+요구되었습니까? (예: 생각, 의사결정, 계산, 기억, 탐색 등)  \n
+        How much mental and perceptual activity
+        was required (e.g., thinking, deciding, calculating,
+        remembering, looking, searching,
+        etc.)? Was the task easy or demanding, simple
+        or complex, exacting or forgiving?
+    </string>
+
+    <string name="physical_demand_title">육체적 요구(Physical Demand)</string>
+    <string name="physical_demand_description">
+        과제를 수행하기 위해 얼마나 많은 육체적 활동이
+요구되었습니까? (예: 밀기, 당기기, 돌리기, 조작하기, 작동하기 등)
+        \n
+        How much physical activity was required
+(e.g.. pushing, pulling, turning, controlling,
+activating, etc.)? Was the task easy or
+demanding, slow or brisk, slack or strenuous,
+restful or laborious?
+
+    </string>
+
+    <string name="temporal_demand_title">시간적 요구(Temporal Demand)</string>
+    <string name="temporal_demand_description">
+        과제나 과제의 요소가 요구하는 속도 혹은 박자감으로 인해 얼마나 많은 압밥감을 느꼈습니까?
+        속도가 느리고 여유로웠습니까, 아니면 급하고 정신없었습니까?
+
+        \n
+        How much time pressure did you feel due to
+        the rate or pace at which the tasks or task
+        elements occurred? Was the pace slow and
+        leisurely or rapid and frantic?
+    </string>
+
+    <string name="performance_title">수행도(Performance)</string>
+    <string name="performance_description">
+        과제를 얼마나 성공적으로 수행하였다고 생각하십니까?
+        과제의 목표를 완수하는 데에 잇어, 본의의 성취도에 얼만큼 만족하십니까?
+        \n
+        How successful do you think you were in
+accomplishing the goals of the task set by
+the experimenter (or yourself)? How
+satisfied were you with your performance in
+accomplishing these goals?
+        </string>
+
+    <string name="effort_title">좌절감(Frustration Level)</string>
+    <string name="effort_description">
+        과제를 수행하면서 얼마나 불안하고, 초조하고, 화나고,
+스트레스를 받았습니까?
+        \n
+        How insecure, discouraged, irritated, stressed
+and annoyed versus secure, gratified, content,
+relaxed and complacent did you feel
+during the task?
+
+
+</string>
+    <string name="frustration_title">노력(Effort)</string>
+    <string name="frustration_description">
+
+        과제를 수행하기 위해 얼마나 많은 노력을 기울였습니까?
+
+        \n
+        How hard did you have to work (mentally
+and physically) to accomplish your level of
+performance?
+
+
+
+</string>
+
+    <string name="source_of_workload_title">인지부하의 원인(Sources-of-Workload)</string>
+    <string name="source_of_workload_description">아래의 요소 중 과제 수행시 인지부하 발생에 더 큰 영향을 준 요소를 선책하세요.(Tap the factor below that represents the more important contributor to workload for the specific task that you recently performed)</string>
+
+</resources>

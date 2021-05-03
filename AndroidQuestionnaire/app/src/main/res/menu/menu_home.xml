@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".TLXFirstStepActivity">
+
+    <item
+        android:id="@+id/menu_save_csv"
+        android:orderInCategory="100"
+        android:title="Save CSV"
+        />
+    <item android:id="@+id/first_tlx"
+        android:titleCondensed="Persist"
+        android:title="TLX: First"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:checkable="true"
+        app:actionViewClass="android.widget.CheckBox">
+    </item>
+    <item android:id="@+id/second_tlx"
+        android:titleCondensed="Persist"
+        android:title="TLX: Second"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:checkable="true"
+        app:actionViewClass="android.widget.CheckBox">
+    </item>
+    <item android:id="@+id/custom_q"
+        android:titleCondensed="Persist"
+        android:title="Custom Q."
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:checkable="true"
+        app:actionViewClass="android.widget.CheckBox">
+    </item>
+
+
+</menu>
+
+

@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MySeekBar" parent="Widget.AppCompat.SeekBar.Discrete">
+        <item name="android:progressBackgroundTint">#00FFFFFF</item>
+        <item name="android:progressTint">#00FFFFFF</item>
+        <item name="android:colorControlActivated">#c51162</item>
+    </style>
+
+</resources>
+
+

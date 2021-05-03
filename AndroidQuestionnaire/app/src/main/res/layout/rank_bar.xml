@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:text="정신적 요구"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="과제를 수행하기 위해 얼마나~" />
+
+    <RadioGroup
+        android:id="@+id/scores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:paddingTop="5dp"
+
+        >
+    </RadioGroup>
+    <View
+        android:id="@+id/black_bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@android:color/black"
+        android:layout_marginTop="-2dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="6dp"
+
+
+        />
+
+    <!--<android.support.v7.widget.AppCompatSeekBar-->
+        <!--android:paddingTop="15dp"-->
+        <!--android:id="@+id/seekBar4"-->
+        <!--style="@style/MySeekBar"-->
+        <!--android:max="20"-->
+        <!--android:progress="10"-->
+
+        <!--app:tickMark="@drawable/tickmark"-->
+        <!--android:thumb="@drawable/tickmark_thumb"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"/>-->
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="3dp"-->
+        <!--android:background="@android:color/black"-->
+        <!--android:layout_marginTop="-5dp"-->
+        <!--android:layout_marginLeft="14dp"-->
+        <!--android:layout_marginRight="14dp"-->
+        <!--/>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/left_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+
+            android:text="Very Low" />
+
+
+        <TextView
+            android:id="@+id/right_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="Very High" />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

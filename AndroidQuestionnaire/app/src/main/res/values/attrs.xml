@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<declare-styleable name="RankBar">
+    <attr name="rb_scale" format="reference|integer" />
+    <attr name="rb_title" format="reference|string" />
+    <attr name="rb_description" format="reference|string" />
+    <attr name="rb_left_end" format="reference|string" />
+    <attr name="rb_right_end" format="reference|string" />
+</declare-styleable>
+
+
+<declare-styleable name="TaskView">
+    <attr name="task_title" format="reference|string" />
+    <attr name="task_description" format="reference|string" />
+</declare-styleable>
+</resources>
