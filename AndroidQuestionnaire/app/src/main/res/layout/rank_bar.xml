@@ -12,21 +12,22 @@
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
         android:layout_weight="1"
         android:gravity="center"
-        android:textSize="25dp"
         android:text="정신적 요구"
         android:textColor="#000000"
-        android:textStyle="bold"
-        android:layout_marginBottom="5dp"/>
+        android:textSize="@dimen/subjective_title"
+        android:textStyle="bold" />
+
     <TextView
         android:id="@+id/description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
-        android:textSize="20dp"
-        android:text="과제를 수행하기 위해 얼마나~" />
+        android:text="과제를 수행하기 위해 얼마나~"
+        android:textSize="@dimen/subjective_text" />
 
     <RadioGroup
         android:id="@+id/scores"
@@ -85,7 +86,8 @@
             android:layout_weight="1"
             android:gravity="left"
 
-            android:text="Very Low" />
+            android:text="Very Low"
+            android:textSize="@dimen/scale_comment" />
 
 
         <TextView
@@ -94,7 +96,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="right"
-            android:text="Very High" />
+
+            android:text="Very High"
+            android:textSize="@dimen/scale_comment" />
 
 
 

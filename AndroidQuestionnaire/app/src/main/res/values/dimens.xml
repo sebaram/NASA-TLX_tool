@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="subjective_title">25sp</dimen>
+    <dimen name="subjective_text">20sp</dimen>
+
+    <dimen name="second_title">23sp</dimen>
+    <dimen name="second_description">18sp</dimen>
+    <dimen name="second_button">22sp</dimen>
+    <dimen name="second_subject_description">16sp</dimen>
+
+    <dimen name="scale_comment">16sp</dimen>
+
+
+</resources>
